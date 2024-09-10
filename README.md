@@ -1,6 +1,8 @@
 
 <h1> Offline Railway Station Navigator Web App {SIH} </h1>
 
+![Screenshot 2024-09-10 at 11 41 08 AM](https://github.com/user-attachments/assets/bf9e34a7-29cd-4727-95ac-27e9695b21fa)
+
 ## Advanced Interactive Map Application Using Fabric.js
 
 This project involves a highly interactive and user-friendly map application powered by Fabric.js. The features are designed to provide a comprehensive and dynamic navigation experience with rich functionality and modern UI/UX elements:
@@ -77,13 +79,14 @@ This project involves a highly interactive and user-friendly map application pow
 <a align='center' href="https://sarthakkarora.github.io/NAVIGO-RAILWAYS-MAP-SIH/" target="_blank" rel="noreferrer">Try App</a>
 </div>
 <br>
-# Open Source
-This project is opensource now, meaning anybody is free to use any of the ideas or pieces of code in this project, fork the repository and make changes to this project, or come up with a completely different new product based on this project.
-
 
 # Improvement Ideas
-- The algorithm currently being used is `A* Search`. Instead `Floyd Warshall Algorithm` can be run once through the graph, every time a new node is inserted and all pair shortest paths stored in a data structure, so we don't need to compute the shortest path everytime on the client side.
-- `PWA`, Offline support with `Service workers` or offline `flutter` application.
-- Image Optimization and lazy loading.
-- [Zoomify](http://www.zoomify.com/) and [openSeaDragon](https://openseadragon.github.io/) Integration.
 
+1. **Floyd-Warshall for Pathfinding:**
+   - Replace A* Search with the **Floyd-Warshall Algorithm** to compute all-pairs shortest paths once and store them. This reduces client-side computations and speeds up path retrieval in dynamic graphs.
+
+2. **PWA and Offline Support:**
+   - Build as a **PWA** with **Service Workers** or an **offline Flutter app** to ensure functionality without internet, caching assets, and data for fast, reliable offline access.
+
+3. **Image Optimization & Lazy Loading:**
+   - Use modern formats (e.g., **WebP, AVIF**) and **lazy loading** for images to enhance performance, reduce loading times, and optimize bandwidth usage.
