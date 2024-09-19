@@ -1,9 +1,9 @@
 
-<h1> Offline Railway Station Navigator Web App {SIH} </h1>
+<h1> 2D Offline Railway Station Navigator Web App {SIH} </h1>
 
 ![Screenshot 2024-09-10 at 11 41 08 AM](https://github.com/user-attachments/assets/bf9e34a7-29cd-4727-95ac-27e9695b21fa)
 
-## Advanced Interactive Map Application Using Fabric.js
+## Advanced Interactive 2D Map Application Using Fabric.js
 
 This project involves a highly interactive and user-friendly map application powered by Fabric.js. The features are designed to provide a comprehensive and dynamic navigation experience with rich functionality and modern UI/UX elements:
 
